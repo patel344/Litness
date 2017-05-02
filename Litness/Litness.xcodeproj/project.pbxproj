@@ -11,66 +11,25 @@
 		4D1CC8501EB8064300C93989 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CC84F1EB8064300C93989 /* ViewController.swift */; };
 		4D1CC8531EB8064300C93989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1CC8511EB8064300C93989 /* Main.storyboard */; };
 		4D1CC8551EB8064300C93989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1CC8541EB8064300C93989 /* Assets.xcassets */; };
-		4D1CC8581EB8064300C93989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1CC8561EB8064300C93989 /* LaunchScreen.storyboard */; };
-		4D1CC8631EB8064300C93989 /* LitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CC8621EB8064300C93989 /* LitnessTests.swift */; };
-		4D1CC86E1EB8064300C93989 /* LitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CC86D1EB8064300C93989 /* LitnessUITests.swift */; };
 		4D1CC8811EB8157100C93989 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CC8801EB8157100C93989 /* PaymentViewController.swift */; };
 		4D1CC8831EB82D8A00C93989 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CC8821EB82D8A00C93989 /* SettingsViewController.swift */; };
 		4D1CC8851EB8318B00C93989 /* Justthetip_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CC8841EB8318B00C93989 /* Justthetip_ViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4D1CC85F1EB8064300C93989 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4D1CC8421EB8064300C93989 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D1CC8491EB8064300C93989;
-			remoteInfo = Litness;
-		};
-		4D1CC86A1EB8064300C93989 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4D1CC8421EB8064300C93989 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D1CC8491EB8064300C93989;
-			remoteInfo = Litness;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		4D1CC84A1EB8064300C93989 /* Litness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Litness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1CC84D1EB8064300C93989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D1CC84F1EB8064300C93989 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D1CC8521EB8064300C93989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D1CC8541EB8064300C93989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4D1CC8571EB8064300C93989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D1CC8591EB8064300C93989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D1CC85E1EB8064300C93989 /* LitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LitnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D1CC8621EB8064300C93989 /* LitnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitnessTests.swift; sourceTree = "<group>"; };
-		4D1CC8641EB8064300C93989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D1CC8691EB8064300C93989 /* LitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LitnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D1CC86D1EB8064300C93989 /* LitnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitnessUITests.swift; sourceTree = "<group>"; };
-		4D1CC86F1EB8064300C93989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D1CC8801EB8157100C93989 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		4D1CC8821EB82D8A00C93989 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		4D1CC8841EB8318B00C93989 /* Justthetip_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Justthetip_ViewController.swift; sourceTree = "<group>"; };
+		B21EA6991EB83DB100932147 /* Litness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Litness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4D1CC8471EB8064300C93989 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D1CC85B1EB8064300C93989 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D1CC8661EB8064300C93989 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,20 +43,8 @@
 			isa = PBXGroup;
 			children = (
 				4D1CC84C1EB8064300C93989 /* Litness */,
-				4D1CC8611EB8064300C93989 /* LitnessTests */,
-				4D1CC86C1EB8064300C93989 /* LitnessUITests */,
-				4D1CC84B1EB8064300C93989 /* Products */,
+				B21EA6991EB83DB100932147 /* Litness.app */,
 			);
-			sourceTree = "<group>";
-		};
-		4D1CC84B1EB8064300C93989 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4D1CC84A1EB8064300C93989 /* Litness.app */,
-				4D1CC85E1EB8064300C93989 /* LitnessTests.xctest */,
-				4D1CC8691EB8064300C93989 /* LitnessUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		4D1CC84C1EB8064300C93989 /* Litness */ = {
@@ -110,28 +57,9 @@
 				4D1CC8841EB8318B00C93989 /* Justthetip_ViewController.swift */,
 				4D1CC8511EB8064300C93989 /* Main.storyboard */,
 				4D1CC8541EB8064300C93989 /* Assets.xcassets */,
-				4D1CC8561EB8064300C93989 /* LaunchScreen.storyboard */,
 				4D1CC8591EB8064300C93989 /* Info.plist */,
 			);
 			path = Litness;
-			sourceTree = "<group>";
-		};
-		4D1CC8611EB8064300C93989 /* LitnessTests */ = {
-			isa = PBXGroup;
-			children = (
-				4D1CC8621EB8064300C93989 /* LitnessTests.swift */,
-				4D1CC8641EB8064300C93989 /* Info.plist */,
-			);
-			path = LitnessTests;
-			sourceTree = "<group>";
-		};
-		4D1CC86C1EB8064300C93989 /* LitnessUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4D1CC86D1EB8064300C93989 /* LitnessUITests.swift */,
-				4D1CC86F1EB8064300C93989 /* Info.plist */,
-			);
-			path = LitnessUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,44 +79,8 @@
 			);
 			name = Litness;
 			productName = Litness;
-			productReference = 4D1CC84A1EB8064300C93989 /* Litness.app */;
+			productReference = B21EA6991EB83DB100932147 /* Litness.app */;
 			productType = "com.apple.product-type.application";
-		};
-		4D1CC85D1EB8064300C93989 /* LitnessTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4D1CC8751EB8064300C93989 /* Build configuration list for PBXNativeTarget "LitnessTests" */;
-			buildPhases = (
-				4D1CC85A1EB8064300C93989 /* Sources */,
-				4D1CC85B1EB8064300C93989 /* Frameworks */,
-				4D1CC85C1EB8064300C93989 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4D1CC8601EB8064300C93989 /* PBXTargetDependency */,
-			);
-			name = LitnessTests;
-			productName = LitnessTests;
-			productReference = 4D1CC85E1EB8064300C93989 /* LitnessTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4D1CC8681EB8064300C93989 /* LitnessUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4D1CC8781EB8064300C93989 /* Build configuration list for PBXNativeTarget "LitnessUITests" */;
-			buildPhases = (
-				4D1CC8651EB8064300C93989 /* Sources */,
-				4D1CC8661EB8064300C93989 /* Frameworks */,
-				4D1CC8671EB8064300C93989 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4D1CC86B1EB8064300C93989 /* PBXTargetDependency */,
-			);
-			name = LitnessUITests;
-			productName = LitnessUITests;
-			productReference = 4D1CC8691EB8064300C93989 /* LitnessUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -204,14 +96,6 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = HVPRU6Y9WE;
 					};
-					4D1CC85D1EB8064300C93989 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 4D1CC8491EB8064300C93989;
-					};
-					4D1CC8681EB8064300C93989 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 4D1CC8491EB8064300C93989;
-					};
 				};
 			};
 			buildConfigurationList = 4D1CC8451EB8064300C93989 /* Build configuration list for PBXProject "Litness" */;
@@ -223,13 +107,11 @@
 				Base,
 			);
 			mainGroup = 4D1CC8411EB8064300C93989;
-			productRefGroup = 4D1CC84B1EB8064300C93989 /* Products */;
+			productRefGroup = 4D1CC8411EB8064300C93989;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4D1CC8491EB8064300C93989 /* Litness */,
-				4D1CC85D1EB8064300C93989 /* LitnessTests */,
-				4D1CC8681EB8064300C93989 /* LitnessUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,23 +121,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1CC8581EB8064300C93989 /* LaunchScreen.storyboard in Resources */,
 				4D1CC8551EB8064300C93989 /* Assets.xcassets in Resources */,
 				4D1CC8531EB8064300C93989 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D1CC85C1EB8064300C93989 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D1CC8671EB8064300C93989 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,36 +141,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D1CC85A1EB8064300C93989 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D1CC8631EB8064300C93989 /* LitnessTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D1CC8651EB8064300C93989 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D1CC86E1EB8064300C93989 /* LitnessUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4D1CC8601EB8064300C93989 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4D1CC8491EB8064300C93989 /* Litness */;
-			targetProxy = 4D1CC85F1EB8064300C93989 /* PBXContainerItemProxy */;
-		};
-		4D1CC86B1EB8064300C93989 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4D1CC8491EB8064300C93989 /* Litness */;
-			targetProxy = 4D1CC86A1EB8064300C93989 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4D1CC8511EB8064300C93989 /* Main.storyboard */ = {
@@ -312,14 +150,6 @@
 				4D1CC8521EB8064300C93989 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4D1CC8561EB8064300C93989 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D1CC8571EB8064300C93989 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -434,56 +264,6 @@
 			};
 			name = Release;
 		};
-		4D1CC8761EB8064300C93989 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = LitnessTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flegmann.com.LitnessTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Litness.app/Litness";
-			};
-			name = Debug;
-		};
-		4D1CC8771EB8064300C93989 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = LitnessTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flegmann.com.LitnessTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Litness.app/Litness";
-			};
-			name = Release;
-		};
-		4D1CC8791EB8064300C93989 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LitnessUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flegmann.com.LitnessUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Litness;
-			};
-			name = Debug;
-		};
-		4D1CC87A1EB8064300C93989 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LitnessUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flegmann.com.LitnessUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Litness;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -501,24 +281,6 @@
 			buildConfigurations = (
 				4D1CC8731EB8064300C93989 /* Debug */,
 				4D1CC8741EB8064300C93989 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4D1CC8751EB8064300C93989 /* Build configuration list for PBXNativeTarget "LitnessTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D1CC8761EB8064300C93989 /* Debug */,
-				4D1CC8771EB8064300C93989 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4D1CC8781EB8064300C93989 /* Build configuration list for PBXNativeTarget "LitnessUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D1CC8791EB8064300C93989 /* Debug */,
-				4D1CC87A1EB8064300C93989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
