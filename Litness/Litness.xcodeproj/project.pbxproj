@@ -14,6 +14,8 @@
 		4D1CC8581EB8064300C93989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1CC8561EB8064300C93989 /* LaunchScreen.storyboard */; };
 		4D1CC8631EB8064300C93989 /* LitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CC8621EB8064300C93989 /* LitnessTests.swift */; };
 		4D1CC86E1EB8064300C93989 /* LitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CC86D1EB8064300C93989 /* LitnessUITests.swift */; };
+		4D1CC8811EB8157100C93989 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CC8801EB8157100C93989 /* PaymentViewController.swift */; };
+		4D1CC8831EB82D8A00C93989 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CC8821EB82D8A00C93989 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4D1CC8691EB8064300C93989 /* LitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LitnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1CC86D1EB8064300C93989 /* LitnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitnessUITests.swift; sourceTree = "<group>"; };
 		4D1CC86F1EB8064300C93989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1CC8801EB8157100C93989 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		4D1CC8821EB82D8A00C93989 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				4D1CC84D1EB8064300C93989 /* AppDelegate.swift */,
+				4D1CC8821EB82D8A00C93989 /* SettingsViewController.swift */,
+				4D1CC8801EB8157100C93989 /* PaymentViewController.swift */,
 				4D1CC84F1EB8064300C93989 /* ViewController.swift */,
 				4D1CC8511EB8064300C93989 /* Main.storyboard */,
 				4D1CC8541EB8064300C93989 /* Assets.xcassets */,
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D1CC8501EB8064300C93989 /* ViewController.swift in Sources */,
+				4D1CC8811EB8157100C93989 /* PaymentViewController.swift in Sources */,
 				4D1CC84E1EB8064300C93989 /* AppDelegate.swift in Sources */,
+				4D1CC8831EB82D8A00C93989 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +493,7 @@
 				4D1CC8741EB8064300C93989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D1CC8751EB8064300C93989 /* Build configuration list for PBXNativeTarget "LitnessTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +502,7 @@
 				4D1CC8771EB8064300C93989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D1CC8781EB8064300C93989 /* Build configuration list for PBXNativeTarget "LitnessUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +511,7 @@
 				4D1CC87A1EB8064300C93989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
