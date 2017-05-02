@@ -164,6 +164,25 @@
             </objects>
             <point key="canvasLocation" x="309.5" y="418.5"/>
         </scene>
+        <!--Justthetip View Controller-->
+        <scene sceneID="R1J-DQ-Dku">
+            <objects>
+                <viewController storyboardIdentifier="thanks_view" id="GhZ-MW-Fcy" customClass="Justthetip_ViewController" customModule="Litness" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Pf-Fz-MKy"/>
+                        <viewControllerLayoutGuide type="bottom" id="aaG-Eo-fK3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u2l-iG-ajb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E8Z-tg-lZu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1262.5" y="413.5"/>
+        </scene>
         <!--Payment View Controller-->
         <scene sceneID="vLb-pT-AGo">
             <objects>
@@ -199,6 +218,12 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zx3-qk-OLi">
                                 <rect key="frame" x="154" y="153" width="65" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Show this to bartender to get your drink" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DjD-Hb-FoU">
+                                <rect key="frame" x="20" y="216" width="348" height="56"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>

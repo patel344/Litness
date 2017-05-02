@@ -16,6 +16,7 @@
 		4D1CC86E1EB8064300C93989 /* LitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CC86D1EB8064300C93989 /* LitnessUITests.swift */; };
 		4D1CC8811EB8157100C93989 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CC8801EB8157100C93989 /* PaymentViewController.swift */; };
 		4D1CC8831EB82D8A00C93989 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CC8821EB82D8A00C93989 /* SettingsViewController.swift */; };
+		4D1CC8851EB8318B00C93989 /* Justthetip_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CC8841EB8318B00C93989 /* Justthetip_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4D1CC86F1EB8064300C93989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D1CC8801EB8157100C93989 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		4D1CC8821EB82D8A00C93989 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4D1CC8841EB8318B00C93989 /* Justthetip_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Justthetip_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				4D1CC8821EB82D8A00C93989 /* SettingsViewController.swift */,
 				4D1CC8801EB8157100C93989 /* PaymentViewController.swift */,
 				4D1CC84F1EB8064300C93989 /* ViewController.swift */,
+				4D1CC8841EB8318B00C93989 /* Justthetip_ViewController.swift */,
 				4D1CC8511EB8064300C93989 /* Main.storyboard */,
 				4D1CC8541EB8064300C93989 /* Assets.xcassets */,
 				4D1CC8561EB8064300C93989 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D1CC8501EB8064300C93989 /* ViewController.swift in Sources */,
+				4D1CC8851EB8318B00C93989 /* Justthetip_ViewController.swift in Sources */,
 				4D1CC8811EB8157100C93989 /* PaymentViewController.swift in Sources */,
 				4D1CC84E1EB8064300C93989 /* AppDelegate.swift in Sources */,
 				4D1CC8831EB82D8A00C93989 /* SettingsViewController.swift in Sources */,
@@ -410,6 +414,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Litness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flegmann.com.Litness;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,6 +427,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Litness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flegmann.com.Litness;
 				PRODUCT_NAME = "$(TARGET_NAME)";

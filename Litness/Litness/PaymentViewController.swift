@@ -13,7 +13,7 @@ class PaymentViewController: UIViewController {
     @IBOutlet weak var Price_lbl: UILabel!
     var drink: String?
     var price: Float?
-    
+    var tField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -38,7 +38,43 @@ class PaymentViewController: UIViewController {
     
     
     @IBAction func Approve_btn(sender: AnyObject) {
+        let alert = UIAlertController(title: "Enter Bartender Code", message: "", preferredStyle: UIAlertControllerStyle.Alert)
+        
+        alert.addTextFieldWithConfigurationHandler(configurationTextField)
+        alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler:handleCancel))
+        alert.addAction(UIAlertAction(title: "Done", style: UIAlertActionStyle.Default, handler:{ (UIAlertAction)in
+            //print("Done !!")
+            //print("Item : \(self.tField.text)")
+            print(self.tField.text!)
+            let viewController: Justthetip_ViewController = self.storyboard?.instantiateViewControllerWithIdentifier("thanks_view") as! Justthetip_ViewController
+            viewController.price = self.price
+            viewController.drink = self.drink
+            self.presentViewController(viewController, animated:true, completion:nil)
+            
+        }))//end alert
         
         
+        self.presentViewController(alert, animated: true, completion: {
+            //print("completion block")
+        })
+  
+        
+    }//end approve btn
+    
+    //alert functions
+    
+    
+    func configurationTextField(textField: UITextField!)
+    {
+        //print("generating the TextField")
+        textField.placeholder = "Enter Weight"
+        textField.keyboardType = UIKeyboardType.NumberPad
+        tField = textField
+    }
+    
+    
+    func handleCancel(alertView: UIAlertAction!)
+    {
+        //print("Cancelled !!")
     }
 }
