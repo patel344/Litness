@@ -21,7 +21,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         //the way to make image clickable (i know I chose the worse
-        let First_img_sel = UITapGestureRecognizer(target: self, action: #selector(ViewController.Firstimage(_:)))
+        let First_img_sel = UITapGestureRecognizer(target: self, action: "Firstimage:")
         First_img_sel.delegate = self
         self.First_image.addGestureRecognizer(First_img_sel)
         self.First_image.userInteractionEnabled = true
