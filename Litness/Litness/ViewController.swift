@@ -40,7 +40,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     //function ran when first image clicked
     func Firstimage(sender: AnyObject){
         print("OMG it works")
-        let viewController: PaymentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("Payment_view") as! PaymentViewController
+        let viewController: PaymentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("Payment_view") as PaymentViewController
         viewController.drink = drinks[0]
         viewController.price = prices[0]
         self.presentViewController(viewController, animated:true, completion:nil)

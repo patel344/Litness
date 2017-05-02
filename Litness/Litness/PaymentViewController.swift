@@ -30,7 +30,7 @@ class PaymentViewController: UIViewController {
     }
 
     @IBAction func Cancel_Btn(sender: AnyObject) {
-        let viewController: ViewController = self.storyboard?.instantiateViewControllerWithIdentifier("main_view") as! ViewController
+        let viewController: ViewController = self.storyboard?.instantiateViewControllerWithIdentifier("main_view") as ViewController
         //viewController.workout = workouts[indexPath.row]
         self.presentViewController(viewController, animated:true, completion:nil)
         print("fuck")
@@ -46,7 +46,7 @@ class PaymentViewController: UIViewController {
             //print("Done !!")
             //print("Item : \(self.tField.text)")
             print(self.tField.text!)
-            let viewController: Justthetip_ViewController = self.storyboard?.instantiateViewControllerWithIdentifier("thanks_view") as! Justthetip_ViewController
+            let viewController: Justthetip_ViewController = self.storyboard?.instantiateViewControllerWithIdentifier("thanks_view") as Justthetip_ViewController
             viewController.price = self.price
             viewController.drink = self.drink
             self.presentViewController(viewController, animated:true, completion:nil)
@@ -67,7 +67,7 @@ class PaymentViewController: UIViewController {
     func configurationTextField(textField: UITextField!)
     {
         //print("generating the TextField")
-        textField.placeholder = "Enter Weight"
+        textField.placeholder = "Enter your ID"
         textField.keyboardType = UIKeyboardType.NumberPad
         tField = textField
     }
